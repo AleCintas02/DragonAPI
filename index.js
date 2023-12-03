@@ -8,6 +8,9 @@ app.use(express.json());
 
 const archivoPersonajes = "personajes.json";
 
+app.get('/', (req, res) => {
+  res.send('Bienvenido a la api de Dragon Ball: https://dragonapi.onrender.com/dbapi/personajes');
+})
 app.get("/dbapi/personajes", async (req, res) => {
   try {
     const contenido = await fs.readFile(archivoPersonajes, "utf-8");
