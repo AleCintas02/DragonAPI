@@ -9,7 +9,7 @@ app.use(express.json());
 const archivoPersonajes = "personajes.json";
 
 app.get('/', (req, res) => {
-  res.send('Bienvenido a la api de Dragon Ball: https://dragonapi.onrender.com/dbapi/personajes');
+  res.send('<h1 style="text-align: center; font-family: sans-serif;">Bienvenido a la api de Dragon Ball:<br><a style="color: red;" href="https://dragonapi.onrender.com/dbapi/personajes">https://dragonapi.onrender.com/dbapi/personajes</a></h1>');
 })
 app.get("/dbapi/personajes", async (req, res) => {
   try {
