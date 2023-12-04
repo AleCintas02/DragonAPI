@@ -4,601 +4,201 @@
       "id": 1,
       "nombre": "Goku",
       "descripcion": "El protagonista principal, un guerrero Saiyan increíblemente fuerte.",
-      "imagen": "https://qph.cf2.quoracdn.net/main-qimg-c9c53132658419d411da7e6ee369ee11"
+      "raza": {
+        "id": 1,
+        "NombreRaza": "Saiyajin"
+      },
+      "imagen": "URL_Goku"
     },
     {
       "id": 2,
       "nombre": "Vegeta",
-      "descripcion": "El príncipe Saiyan, rival de Goku con una gran fuerza y orgullo.",
-      "imagen": "https://static.wikia.nocookie.net/dragon-ball-legends/images/d/d3/Super_Saiyan_God_SS_Vegeta_%28SP%29_%28GRN%29_Thumb.png/revision/latest?cb=20191127050917"
+      "descripcion": "Príncipe de los Saiyan y rival de Goku.",
+      "raza": {
+        "id": 1,
+        "NombreRaza": "Saiyajin"
+      },
+      "imagen": "URL_Vegeta"
     },
     {
       "id": 3,
       "nombre": "Piccolo",
-      "descripcion": "Un Namekiano sabio y poderoso, a menudo aliado de Goku.",
-      "imagen": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/84dc13b7-a2e7-4b45-83ec-311e72e82900/dbthg0u-97eb11ed-f5fc-48f3-8af1-9a964b99f5ef.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg0ZGMxM2I3LWEyZTctNGI0NS04M2VjLTMxMWU3MmU4MjkwMFwvZGJ0aGcwdS05N2ViMTFlZC1mNWZjLTQ4ZjMtOGFmMS05YTk2NGI5OWY1ZWYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.piR08y-73LMI-6at8rk8Ap9ZUsublwpVlijZSSR89HY"
+      "descripcion": "Un Namekiano y aliado de Goku.",
+      "raza": {
+        "id": 2,
+        "NombreRaza": "Namekiano"
+      },
+      "imagen": "URL_Piccolo"
     },
     {
       "id": 4,
-      "nombre": "Bulma",
-      "descripcion": "Ingeniera y científica, amiga de Goku y parte fundamental en la serie.",
-      "imagen": "https://dblegends.net/assets/card_icons/BChaIco_0379_Bulma_379.webp"
+      "nombre": "Gohan",
+      "descripcion": "Hijo de Goku, mitad Saiyan y mitad terrícola.",
+      "raza": {
+        "id": 3,
+        "NombreRaza": "Híbrido Saiyan-Terrícola"
+      },
+      "imagen": "URL_Gohan"
     },
     {
       "id": 5,
-      "nombre": "Gohan",
-      "descripcion": "Hijo de Goku, un luchador valiente y compasivo.",
-      "imagen": "https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F5uewi2yrknz71.png&rdt=61250"
+      "nombre": "Frieza",
+      "descripcion": "Un tirano intergaláctico y poderoso guerrero.",
+      "raza": {
+        "id": 4,
+        "NombreRaza": "Extraterrestre"
+      },
+      "imagen": "URL_Frieza"
     },
     {
       "id": 6,
-      "nombre": "Trunks",
-      "descripcion": "Hijo de Vegeta y Bulma, viajero del tiempo con gran potencial.",
-      "imagen": "https://i.pinimg.com/originals/13/ce/04/13ce04a0bfdf30773be7110d2046105a.png"
+      "nombre": "Bulma",
+      "descripcion": "Genio científico y amiga cercana de Goku.",
+      "raza": {
+        "id": 5,
+        "NombreRaza": "Terrícola"
+      },
+      "imagen": "URL_Bulma"
     },
     {
       "id": 7,
       "nombre": "Krillin",
-      "descripcion": "Amigo cercano de Goku y guerrero valiente.",
-      "imagen": "https://imgur.com/lWM9QM4"
+      "descripcion": "Amigo de Goku y experto en artes marciales.",
+      "raza": {
+        "id": 5,
+        "NombreRaza": "Terrícola"
+      },
+      "imagen": "URL_Krillin"
     },
     {
       "id": 8,
-      "nombre": "Freezer",
-      "descripcion": "Poderoso tirano del espacio con forma y transformaciones únicas.",
-      "imagen": "https://imgur.com/HcPehh0"
+      "nombre": "Android 18",
+      "descripcion": "Androide poderosa y exvillana.",
+      "raza": {
+        "id": 6,
+        "NombreRaza": "Android"
+      },
+      "imagen": "URL_Android18"
     },
     {
       "id": 9,
-      "nombre": "Cell",
-      "descripcion": "Bioandroide creado por científicos locos con el deseo de perfección.",
-      "imagen": "https://imgur.com/2MAGSvJ"
+      "nombre": "Trunks",
+      "descripcion": "Hijo de Vegeta y Bulma, viajero del tiempo.",
+      "raza": {
+        "id": 3,
+        "NombreRaza": "Híbrido Saiyan-Terrícola"
+      },
+      "imagen": "URL_Trunks"
     },
     {
       "id": 10,
-      "nombre": "Majin Buu",
-      "descripcion": "Criatura mágica con diversas formas y personalidades.",
-      "imagen": "https://imgur.com/6Rs86Wn"
+      "nombre": "Cell",
+      "descripcion": "Bioandroide con células de guerreros poderosos.",
+      "raza": {
+        "id": 7,
+        "NombreRaza": "Bioandroide"
+      },
+      "imagen": "URL_Cell"
     },
     {
       "id": 11,
-      "nombre": "Yamcha",
-      "descripcion": "Luchador y exbandido, amigo de Goku y los demás Guerreros Z.",
-      "imagen": "https://imgur.com/ouLUEPM"
+      "nombre": "Vegeta Jr.",
+      "descripcion": "Descendiente de Vegeta y Bulma en el futuro.",
+      "raza": {
+        "id": 3,
+        "NombreRaza": "Híbrido Saiyan-Terrícola"
+      },
+      "imagen": "URL_VegetaJr"
     },
     {
       "id": 12,
-      "nombre": "Tenshinhan",
-      "descripcion": "Habilidoso luchador con técnicas especiales, también amigo de Goku.",
-      "imagen": "https://imgur.com/WbWbZ0j"
+      "nombre": "Beerus",
+      "descripcion": "Dios de la Destrucción y amante de la comida.",
+      "raza": {
+        "id": 8,
+        "NombreRaza": "Divinidad"
+      },
+      "imagen": "URL_Beerus"
     },
     {
       "id": 13,
-      "nombre": "Chaoz",
-      "descripcion": "Pequeño guerrero y amigo inseparable de Tenshinhan.",
-      "imagen": "URL_IMAGEN_CHAOZ"
+      "nombre": "Whis",
+      "descripcion": "Asistente de Beerus y entrenador de Goku y Vegeta.",
+      "raza": {
+        "id": 8,
+        "NombreRaza": "Ángel"
+      },
+      "imagen": "URL_Whis"
     },
     {
       "id": 14,
-      "nombre": "Android 17",
-      "descripcion": "Androide creado por el Dr. Gero, se une a los Guerreros Z.",
-      "imagen": "https://imgur.com/GYVEomA"
+      "nombre": "Tien",
+      "descripcion": "Maestro de artes marciales y antiguo rival de Goku.",
+      "raza": {
+        "id": 5,
+        "NombreRaza": "Terrícola"
+      },
+      "imagen": "URL_Tien"
     },
     {
       "id": 15,
-      "nombre": "Android 18",
-      "descripcion": "Androide femenina, hermana de Android 17 y esposa de Krillin.",
-      "imagen": "https://imgur.com/eN16JAM"
+      "nombre": "Yamcha",
+      "descripcion": "Luchador y aventurero, amigo de Goku y los demás.",
+      "raza": {
+        "id": 5,
+        "NombreRaza": "Terrícola"
+      },
+      "imagen": "URL_Yamcha"
     },
     {
       "id": 16,
-      "nombre": "Goten",
-      "descripcion": "Hijo menor de Goku, compañero de entrenamiento de Trunks.",
-      "imagen": "https://imgur.com/yt3qXiH"
+      "nombre": "Videl",
+      "descripcion": "Esposa de Gohan y luchadora talentosa.",
+      "raza": {
+        "id": 5,
+        "NombreRaza": "Terrícola"
+      },
+      "imagen": "URL_Videl"
     },
     {
       "id": 17,
-      "nombre": "Videl",
-      "descripcion": "Esposa de Gohan, experta en artes marciales y defensora de la justicia.",
-      "imagen": "URL_IMAGEN_VIDEL"
+      "nombre": "Goten",
+      "descripcion": "Hijo menor de Goku y Gohan, mitad Saiyan y mitad terrícola.",
+      "raza": {
+        "id": 3,
+        "NombreRaza": "Híbrido Saiyan-Terrícola"
+      },
+      "imagen": "URL_Goten"
     },
     {
       "id": 18,
-      "nombre": "Beerus",
-      "descripcion": "Dios de la Destrucción, poseedor de un gran poder y amante de la comida.",
-      "imagen": "URL_IMAGEN_BEERUS"
+      "nombre": "Raditz",
+      "descripcion": "Hermano mayor de Goku y guerrero Saiyan.",
+      "raza": {
+        "id": 1,
+        "NombreRaza": "Saiyajin"
+      },
+      "imagen": "URL_Raditz"
     },
     {
       "id": 19,
-      "nombre": "Whis",
-      "descripcion": "Asistente y maestro de Beerus, extremadamente poderoso.",
-      "imagen": "URL_IMAGEN_WHIS"
+      "nombre": "Broly",
+      "descripcion": "Poderoso Saiyan con una fuerza inigualable.",
+      "raza": {
+        "id": 1,
+        "NombreRaza": "Saiyajin"
+      },
+      "imagen": "URL_Broly"
     },
     {
       "id": 20,
-      "nombre": "Hit",
-      "descripcion": "Asesino del Universo 6 con habilidades de manipulación del tiempo.",
-      "imagen": "URL_IMAGEN_HIT"
-    },
-    {
-      "id": 21,
-      "nombre": "Jiren",
-      "descripcion": "Poderoso guerrero del Universo 11, miembro de los Orgulloso Guereros.",
-      "imagen": "URL_IMAGEN_JIREN"
-    },
-    {
-      "id": 22,
-      "nombre": "Kale",
-      "descripcion": "Saiyan del Universo 6 con un poder explosivo, miembro del equipo de Champa.",
-      "imagen": "URL_IMAGEN_KALE"
-    },
-    {
-      "id": 23,
-      "nombre": "Caulifla",
-      "descripcion": "Saiyan del Universo 6, líder del equipo de Champa.",
-      "imagen": "URL_IMAGEN_CAULIFLA"
-    },
-    {
-      "id": 24,
-      "nombre": "Cabba",
-      "descripcion": "Saiyan del Universo 6, aprendiz de Vegeta y miembro del equipo de Champa.",
-      "imagen": "URL_IMAGEN_CABBA"
-    },
-    {
-      "id": 25,
-      "nombre": "Raditz",
-      "descripcion": "Hermano mayor de Goku, Saiyan que llega a la Tierra al inicio de la serie.",
-      "imagen": "URL_IMAGEN_RADITZ"
-    },
-    {
-      "id": 26,
-      "nombre": "Nappa",
-      "descripcion": "Saiyan y antiguo compañero de Vegeta, llega a la Tierra con Raditz.",
-      "imagen": "URL_IMAGEN_NAPPA"
-    },
-    {
-      "id": 27,
-      "nombre": "Pan",
-      "descripcion": "Nieta de Goku y hija de Gohan y Videl.",
-      "imagen": "URL_IMAGEN_PAN"
-    },
-    {
-      "id": 28,
-      "nombre": "Mr. Satán",
-      "descripcion": "Luchador famoso y campeón mundial, más conocido como Hercule.",
-      "imagen": "URL_IMAGEN_MR_SATAN"
-    },
-    {
-      "id": 29,
-      "nombre": "Dende",
-      "descripcion": "Namekiano y guardián de la Tierra después de Kami.",
-      "imagen": "URL_IMAGEN_DENDE"
-    },
-    {
-      "id": 30,
-      "nombre": "Supreme Kai",
-      "descripcion": "Ser supremo del Universo, responsable de mantener el equilibrio.",
-      "imagen": "URL_IMAGEN_SUPREME_KAI"
-    },
-    {
-      "id": 31,
-      "nombre": "Gowasu",
-      "descripcion": "Kaiōshin del Universo 10, maestro de Zamasu.",
-      "imagen": "URL_IMAGEN_GOWASU"
-    },
-    {
-      "id": 32,
-      "nombre": "Zamasu",
-      "descripcion": "Kaiōshin del Universo 10, desarrolla sentimientos de odio hacia los humanos.",
-      "imagen": "URL_IMAGEN_ZAMASU"
-    },
-    {
-      "id": 33,
-      "nombre": "Raditz",
-      "descripcion": "Hermano mayor de Goku, Saiyan que llega a la Tierra al inicio de la serie.",
-      "imagen": "URL_IMAGEN_RADITZ"
-    },
-    {
-      "id": 34,
-      "nombre": "Nappa",
-      "descripcion": "Saiyan y antiguo compañero de Vegeta, llega a la Tierra con Raditz.",
-      "imagen": "URL_IMAGEN_NAPPA"
-    },
-    {
-      "id": 35,
-      "nombre": "Pan",
-      "descripcion": "Nieta de Goku y hija de Gohan y Videl.",
-      "imagen": "URL_IMAGEN_PAN"
-    },
-    {
-      "id": 36,
-      "nombre": "Mr. Satán",
-      "descripcion": "Luchador famoso y campeón mundial, más conocido como Hercule.",
-      "imagen": "URL_IMAGEN_MR_SATAN"
-    },
-    {
-      "id": 37,
-      "nombre": "Dende",
-      "descripcion": "Namekiano y guardián de la Tierra después de Kami.",
-      "imagen": "URL_DENDE"
-    },
-    {
-      "id": 38,
-      "nombre": "Champa",
-      "descripcion": "Dios de la Destrucción del Universo 6, hermano gemelo de Beerus.",
-      "imagen": "URL_IMAGEN_CHAMPA"
-    },
-    {
-      "id": 39,
-      "nombre": "Vados",
-      "descripcion": "Hermana de Whis y asistente del Dios de la Destrucción Champa.",
-      "imagen": "URL_IMAGEN_VADOS"
-    },
-    {
-      "id": 40,
-      "nombre": "Bardock",
-      "descripcion": "Padre de Goku, Saiyan que luchó contra la opresión de Freezer.",
-      "imagen": "URL_IMAGEN_BARDOCK"
-    },
-    {
-      "id": 41,
-      "nombre": "King Kai",
-      "descripcion": "Kaiō del Norte, instructor de Goku y otros Guerreros Z.",
-      "imagen": "URL_IMAGEN_KING_KAI"
-    },
-    {
-      "id": 42,
-      "nombre": "Grand Elder Guru",
-      "descripcion": "Líder de los Namekianos, sabio y poderoso.",
-      "imagen": "URL_IMAGEN_GRAND_ELDER_GURU"
-    },
-    {
-      "id": 43,
-      "nombre": "Oolong",
-      "descripcion": "Transformista y amigo de Goku, miembro de los Guerreros Z.",
-      "imagen": "URL_IMAGEN_OOLONG"
-    },
-    {
-      "id": 44,
-      "nombre": "Puar",
-      "descripcion": "Amigo de Yamcha y Oolong, con la habilidad de cambiar de forma.",
-      "imagen": "URL_IMAGEN_PUAR"
-    },
-    {
-      "id": 45,
-      "nombre": "Launch",
-      "descripcion": "Mujer con personalidades duales, amiga de Goku en su juventud.",
-      "imagen": "URL_IMAGEN_LAUNCH"
-    },
-    {
-      "id": 46,
-      "nombre": "Master Roshi",
-      "descripcion": "Anciano sabio y poderoso, maestro de Goku y Krillin.",
-      "imagen": "URL_IMAGEN_MASTER_ROSHI"
-    },
-    {
-      "id": 47,
-      "nombre": "Turtle",
-      "descripcion": "Tortuga mascota de Master Roshi, acompañante de Goku y sus amigos.",
-      "imagen": "URL_IMAGEN_TURTLE"
-    },
-    {
-      "id": 48,
-      "nombre": "Yajirobe",
-      "descripcion": "Guerrero terrícola, proveedor de Senzu Beans y aliado ocasional.",
-      "imagen": "URL_IMAGEN_YAJIROBE"
-    },
-    {
-      "id": 49,
-      "nombre": "Korin",
-      "descripcion": "Gato sabio que vive en la Torre de Korin, proveedor de Senzu Beans.",
-      "imagen": "URL_IMAGEN_KORIN"
-    },
-    {
-      "id": 50,
-      "nombre": "Mr. Popo",
-      "descripcion": "Asistente de Kami, cuidador de la Torre de Kami y amigo de Goku.",
-      "imagen": "URL_IMAGEN_MR_POPO"
-    },
-    {
-      "id": 51,
-      "nombre": "Dabura",
-      "descripcion": "Rey Demonio del inframundo, sirviente de Babidi.",
-      "imagen": "URL_IMAGEN_DABURA"
-    },
-    {
-      "id": 52,
-      "nombre": "Babidi",
-      "descripcion": "Mago alienígena que intenta revivir a Majin Buu.",
-      "imagen": "URL_IMAGEN_BABIDI"
-    },
-    {
-      "id": 53,
-      "nombre": "Dr. Briefs",
-      "descripcion": "Padre de Bulma y genio científico, propietario de Capsule Corporation.",
-      "imagen": "URL_IMAGEN_DR_BRIEFS"
-    },
-    {
-      "id": 54,
-      "nombre": "Mrs. Briefs",
-      "descripcion": "Madre de Bulma y esposa de Dr. Briefs.",
-      "imagen": "URL_IMAGEN_MRS_BRIEFS"
-    },
-    {
-      "id": 55,
-      "nombre": "Zarbon",
-      "descripcion": "Soldado y consejero de Freezer, con una forma transformada.",
-      "imagen": "URL_IMAGEN_ZARBON"
-    },
-    {
-      "id": 56,
-      "nombre": "Dodoria",
-      "descripcion": "Comandante de las fuerzas de Freezer, de aspecto intimidante.",
-      "imagen": "URL_IMAGEN_DODORIA"
-    },
-    {
-      "id": 57,
-      "nombre": "Pikkon",
-      "descripcion": "Guerrero del Otro Mundo, rival de Goku en el Torneo del Otro Mundo.",
-      "imagen": "URL_IMAGEN_PIKKON"
-    },
-    {
-      "id": 58,
-      "nombre": "Ox-King",
-      "descripcion": "Suegro de Goku y padre de Chi-Chi, rey de la Montaña de Fuego.",
-      "imagen": "URL_IMAGEN_OX_KING"
-    },
-    {
-      "id": 59,
-      "nombre": "Grandpa Gohan",
-      "descripcion": "Abuelo adoptivo de Goku, responsable de su crianza en su infancia.",
-      "imagen": "URL_IMAGEN_GRANDPA_GOHAN"
-    },
-    {
-      "id": 60,
-      "nombre": "Panthera",
-      "descripcion": "Animal de compañía de Yamcha, un gato antropomórfico.",
-      "imagen": "URL_IMAGEN_PANTHERA"
-    },
-    {
-      "id": 61,
-      "nombre": "Videl",
-      "descripcion": "Esposa de Gohan, experta en artes marciales y defensora de la justicia.",
-      "imagen": "URL_IMAGEN_VIDEL"
-    },
-    {
-      "id": 62,
-      "nombre": "Giran",
-      "descripcion": "Luchador alienígena que participó en el Torneo de la Supervivencia.",
-      "imagen": "URL_IMAGEN_GIRAN"
-    },
-    {
-      "id": 63,
-      "nombre": "Nam",
-      "descripcion": "Luchador del Torneo de las Artes Marciales que buscaba salvar su aldea.",
-      "imagen": "URL_IMAGEN_NAM"
-    },
-    {
-      "id": 64,
-      "nombre": "Kibito",
-      "descripcion": "Asistente del Kaio-shin, sirviente de los seres supremos.",
-      "imagen": "URL_IMAGEN_KIBITO"
-    },
-    {
-      "id": 65,
-      "nombre": "Dende",
-      "descripcion": "Namekiano y guardián de la Tierra después de Kami.",
-      "imagen": "URL_IMAGEN_DENDE"
-    },
-    {
-      "id": 66,
-      "nombre": "King Yemma",
-      "descripcion": "Juez del Otro Mundo, decide el destino de las almas.",
-      "imagen": "URL_IMAGEN_KING_YEMMA"
-    },
-    {
-      "id": 67,
-      "nombre": "Kami",
-      "descripcion": "Antiguo guardián de la Tierra, se fusiona con Piccolo.",
-      "imagen": "URL_IMAGEN_KAMI"
-    },
-    {
-      "id": 68,
-      "nombre": "Korin",
-      "descripcion": "Gato sabio que vive en la Torre de Korin, proveedor de Senzu Beans.",
-      "imagen": "URL_IMAGEN_KORIN"
-    },
-    {
-      "id": 69,
-      "nombre": "Yajirobe",
-      "descripcion": "Guerrero terrícola, proveedor de Senzu Beans y aliado ocasional.",
-      "imagen": "URL_IMAGEN_YAJIROBE"
-    },
-    {
-      "id": 70,
-      "nombre": "King Vegeta",
-      "descripcion": "Rey de los Saiyanos y padre de Vegeta.",
-      "imagen": "URL_IMAGEN_KING_VEGETA"
-    },
-    {
-      "id": 71,
-      "nombre": "Launch",
-      "descripcion": "Mujer con personalidades duales, amiga de Goku en su juventud.",
-      "imagen": "URL_IMAGEN_LAUNCH"
-    },
-    {
-      "id": 72,
-      "nombre": "Chi-Chi",
-      "descripcion": "Esposa de Goku, madre de Gohan y Goten, experta en artes marciales.",
-      "imagen": "URL_IMAGEN_CHI_CHI"
-    },
-    {
-      "id": 73,
-      "nombre": "Bulma's Mom",
-      "descripcion": "Madre de Bulma y esposa de Dr. Briefs.",
-      "imagen": "URL_IMAGEN_BULMAS_MOM"
-    },
-    {
-      "id": 74,
-      "nombre": "Master Shen",
-      "descripcion": "Maestro de Tenshinhan y antiguo rival de Master Roshi.",
-      "imagen": "URL_IMAGEN_MASTER_SHEN"
-    },
-    {
-      "id": 75,
-      "nombre": "Chiaotzu",
-      "descripcion": "Pequeño luchador y amigo cercano de Tenshinhan.",
-      "imagen": "URL_IMAGEN_CHIAOTZU"
-    },
-    {
-      "id": 76,
-      "nombre": "Ox-King",
-      "descripcion": "Suegro de Goku y padre de Chi-Chi, rey de la Montaña de Fuego.",
-      "imagen": "URL_IMAGEN_OX_KING"
-    },
-    {
-      "id": 77,
-      "nombre": "Grandpa Gohan",
-      "descripcion": "Abuelo adoptivo de Goku, responsable de su crianza en su infancia.",
-      "imagen": "URL_IMAGEN_GRANDPA_GOHAN"
-    },
-    {
-      "id": 78,
-      "nombre": "Panthera",
-      "descripcion": "Animal de compañía de Yamcha, un gato antropomórfico.",
-      "imagen": "URL_IMAGEN_PANTHERA"
-    },
-    {
-      "id": 79,
-      "nombre": "Tao Pai Pai",
-      "descripcion": "Asesino a sueldo y mercenario, maestro de Tenshinhan.",
-      "imagen": "URL_IMAGEN_TAO_PAI_PAI"
-    },
-    {
-      "id": 80,
-      "nombre": "Mercenary Tao",
-      "descripcion": "Hermano de Tao Pai Pai, también un asesino letal.",
-      "imagen": "URL_IMAGEN_MERCENARY_TAO"
-    },
-    {
-      "id": 81,
-      "nombre": "Launch",
-      "descripcion": "Mujer con personalidades duales, amiga de Goku en su juventud.",
-      "imagen": "URL_IMAGEN_LAUNCH"
-    },
-    {
-      "id": 82,
-      "nombre": "Chi-Chi",
-      "descripcion": "Esposa de Goku, madre de Gohan y Goten, experta en artes marciales.",
-      "imagen": "URL_IMAGEN_CHI_CHI"
-    },
-    {
-      "id": 83,
-      "nombre": "Bulma's Mom",
-      "descripcion": "Madre de Bulma y esposa de Dr. Briefs.",
-      "imagen": "URL_IMAGEN_BULMAS_MOM"
-    },
-    {
-      "id": 84,
-      "nombre": "Pilaf",
-      "descripcion": "Villano diminuto, líder de la Pandilla de Pilaf.",
-      "imagen": "URL_IMAGEN_PILAF"
-    },
-    {
-      "id": 85,
-      "nombre": "Mai",
-      "descripcion": "Miembro de la Pandilla de Pilaf, compañera de Shu.",
-      "imagen": "URL_IMAGEN_MAI"
-    },
-    {
-      "id": 86,
-      "nombre": "Shu",
-      "descripcion": "Miembro de la Pandilla de Pilaf, compañero de Mai.",
-      "imagen": "URL_IMAGEN_SHU"
-    },
-    {
-      "id": 87,
-      "nombre": "Broly",
-      "descripcion": "Poderoso Saiyan con un legendario poder de combate.",
-      "imagen": "URL_IMAGEN_BROLY"
-    },
-    {
-      "id": 88,
-      "nombre": "Paragus",
-      "descripcion": "Padre de Broly, buscando venganza por la injusticia hacia su hijo.",
-      "imagen": "URL_IMAGEN_PARAGUS"
-    },
-    {
-      "id": 89,
-      "nombre": "Pui Pui",
-      "descripcion": "Guerrero del Universo 6, miembro del equipo de Babidi.",
-      "imagen": "URL_IMAGEN_PUI_PUI"
-    },
-    {
-      "id": 90,
-      "nombre": "Spopovich",
-      "descripcion": "Luchador humano bajo el control de Babidi.",
-      "imagen": "URL_IMAGEN_SPOPOVICH"
-    },
-    {
-      "id": 91,
-      "nombre": "Yamu",
-      "descripcion": "Luchador humano bajo el control de Babidi.",
-      "imagen": "URL_IMAGEN_YAMU"
-    },
-    {
-      "id": 92,
-      "nombre": "Dabura",
-      "descripcion": "Rey Demonio del inframundo, sirviente de Babidi.",
-      "imagen": "URL_IMAGEN_DABURA"
-    },
-    {
-      "id": 93,
-      "nombre": "Pilaf",
-      "descripcion": "Villano diminuto, líder de la Pandilla de Pilaf.",
-      "imagen": "URL_IMAGEN_PILAF"
-    },
-    {
-      "id": 94,
-      "nombre": "Mai",
-      "descripcion": "Miembro de la Pandilla de Pilaf, compañera de Shu.",
-      "imagen": "URL_IMAGEN_MAI"
-    },
-    {
-      "id": 95,
-      "nombre": "Shu",
-      "descripcion": "Miembro de la Pandilla de Pilaf, compañero de Mai.",
-      "imagen": "URL_IMAGEN_SHU"
-    },
-    {
-      "id": 96,
-      "nombre": "Cell Jr.",
-      "descripcion": "Criaturas creadas por Cell durante su enfrentamiento en el Torneo de Cell.",
-      "imagen": "URL_IMAGEN_CELL_JR"
-    },
-    {
-      "id": 97,
-      "nombre": "Uub",
-      "descripcion": "Reencarnación humana de Kid Buu, entrenado por Goku.",
-      "imagen": "URL_IMAGEN_UUB"
-    },
-    {
-      "id": 98,
-      "nombre": "Pikkon",
-      "descripcion": "Guerrero del Otro Mundo, rival de Goku en el Torneo del Otro Mundo.",
-      "imagen": "URL_IMAGEN_PIKKON"
-    },
-    {
-      "id": 99,
-      "nombre": "Pan",
-      "descripcion": "Nieta de Goku y hija de Gohan y Videl.",
-      "imagen": "URL_IMAGEN_PAN"
-    },
-    {
-      "id": 100,
-      "nombre": "Videl",
-      "descripcion": "Esposa de Gohan, experta en artes marciales y defensora de la justicia.",
-      "imagen": "URL_IMAGEN_VIDEL"
+      "nombre": "Majin Buu",
+      "descripcion": "Criatura mágica y formidable enemigo.",
+      "raza": {
+        "id": 9,
+        "NombreRaza": "Majin"
+      },
+      "imagen": "URL_MAJIN"
     }
   ]
 }
